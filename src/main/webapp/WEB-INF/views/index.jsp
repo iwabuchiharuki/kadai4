@@ -7,12 +7,12 @@
     <title>Index</title>
   </head>
   <body>
-    <h1>Index Page</h1> //表示
+    <h1>Index Page</h1> <!--//表示-->
     <p>this is sample page for Spring Boot!</p>
-    <p>>${msg}</p>
-    <form method=“post” action=“/post”>
-        <input type=“text” name=“text1”>
-        <input type=“submit”>
+    <p>${msg}</p>
+    <form method="post" action="/post">
+        <input type= "text" name="text1">
+        <input type= "submit" value="送信">
     </form>
   </body>
 </html>
